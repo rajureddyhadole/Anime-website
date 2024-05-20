@@ -1,3 +1,4 @@
+import { MiniNavbar } from "../components/MiniNavbar";
 import { Search } from "../components/Search";
 
 function MainPage() {
@@ -5,6 +6,7 @@ function MainPage() {
   return (
 		<>
 		<Search />
+		<MiniNavbar/>
 		</>
 	);
 }
