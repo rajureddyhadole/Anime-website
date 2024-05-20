@@ -33,7 +33,7 @@ export const Navbar = () => {
 						</li>
 					</ul>
 				</div>
-				<div className='flex items-center p-6 border'>
+				<div className='flex items-center p-6'>
 					<img className='w-10 h-10 mr-2 rounded-full' src="./images/anime-pfp.jpg" alt="image" />
 					<NavLink to="/signin"><button className='px-4 py-2 text-lg font-medium text-white bg-green-400 rounded-full shadow-md hover:bg-green-500 active:bg-green-600'>Sign In</button></NavLink>
 				</div>
