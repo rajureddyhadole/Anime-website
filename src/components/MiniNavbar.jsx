@@ -4,9 +4,9 @@ export const MiniNavbar = () => {
 
   return (
     <>
-    <div className="flex w-[90%] text-lg font-medium text-black justify-between mx-auto">
-      <ul className="flex space-x-8">
-      <p>Recently Updated</p>
+    <div className="flex w-[90%] text-xl font-medium text-black justify-between mx-auto">
+      <ul className="flex items-center justify-center space-x-8">
+      <p className="text-2xl">Recently <br /> Updated</p>
         <li>
           <NavLink to="/all">All</NavLink>
         </li>
