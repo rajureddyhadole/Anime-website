@@ -21,9 +21,6 @@ function HomePage() {
 					<button className="px-4 py-2 font-medium border-2 border-blue-400 rounded-full hover:border-transparent active:bg-blue-600 hover:text-white hover:bg-blue-500">Insta</button>
 				</div>
 			</div>
-			<div className="flex justify-center mb-6 font-semibold text-slate-300">
-				<button className="hover:text-slate-600">BACK TO TOP</button>
-			</div>
 			<Footer/>
 		</div>
 	);

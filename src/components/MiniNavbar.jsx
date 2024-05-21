@@ -8,19 +8,19 @@ export const MiniNavbar = () => {
       <ul className="flex items-center justify-center space-x-8">
       <p className="text-2xl">Recently <br /> Updated</p>
         <li>
-          <NavLink to="/all">All</NavLink>
+          <NavLink className="hover:text-slate-400 active:text-slate-500" to="/all">All</NavLink>
         </li>
         <li>
-          <NavLink to="/sub">Sub</NavLink>
+          <NavLink className="hover:text-slate-400 active:text-slate-500" to="/sub">Sub</NavLink>
         </li>
         <li>
-          <NavLink to="/dub">Dub</NavLink>
+          <NavLink className="hover:text-slate-400 active:text-slate-500" to="/dub">Dub</NavLink>
         </li>
         <li>
-          <NavLink to="/chinese">Chinese</NavLink>
+          <NavLink className="hover:text-slate-400 active:text-slate-500" to="/chinese">Chinese</NavLink>
         </li>
         <li>
-          <NavLink to="/trending">Trending</NavLink>
+          <NavLink className="hover:text-slate-400 active:text-slate-500" to="/trending">Trending</NavLink>
         </li>
       </ul>
       <div>

@@ -1,5 +1,7 @@
 import { Search } from "../components/Search";
 import { MiniNavbar } from "../components/MiniNavbar";
+import { PosterCard } from "../components/PosterCard";
+import { Footer } from "../components/Footer";
 
 export const Dub = () => {
     
@@ -7,6 +9,23 @@ export const Dub = () => {
 		<>
 		<Search/>
 		<MiniNavbar/>
-		<h1>Dub page</h1></>
+		<div className="w-[90%] mx-auto grid grid-cols-7 grid-rows-2">
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+			<PosterCard />
+		</div>
+		<Footer/>
+		</>
 	);
 }

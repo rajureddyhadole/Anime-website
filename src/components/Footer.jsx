@@ -2,6 +2,9 @@ export const Footer = () => {
 
   return (
     <>
+	<div className="flex justify-center mb-6 font-semibold text-slate-300">
+		<button className="hover:text-slate-600">BACK TO TOP</button>
+	</div>
     <hr className="max-w-4xl mx-auto mb-6 border-gray-400" />
 			<div className="max-w-4xl mx-auto mb-10">
 				<ul className="flex justify-center space-x-10 font-medium text-slate-600">
